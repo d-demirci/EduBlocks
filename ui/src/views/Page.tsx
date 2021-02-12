@@ -30,8 +30,8 @@ let AdvancedFunctions: AdvancedFunction[] = ['Export Python', 'Themes', "Switch 
 type ShareOptions = 'Copy Shareable URL' | 'Copy Embed Code' | 'Share to Google Classroom' | 'Share to Microsoft Teams' | 'Share to Public Gallery (BETA)';
 let ShareOptions: ShareOptions[] = ['Copy Shareable URL', 'Copy Embed Code', 'Share to Google Classroom', 'Share to Microsoft Teams', 'Share to Public Gallery (BETA)'];
 
-type Languages = 'English' | 'French' | 'German' | 'Welsh' | 'Turkish';
-const Languages: Languages[] = ['English', 'French', 'German', 'Welsh', 'Turkish'];
+type Languages = 'English' | 'French' | 'German' |  'Turkish';
+const Languages: Languages[] = ['English', 'French', 'German',  'Turkish'];
 
 const ViewModeBlockly = 'blocks';
 const ViewModePython = 'python';
