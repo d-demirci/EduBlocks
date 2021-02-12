@@ -30,8 +30,8 @@ let AdvancedFunctions: AdvancedFunction[] = ['Export Python', 'Themes', "Switch 
 type ShareOptions = 'Copy Shareable URL' | 'Copy Embed Code' | 'Share to Google Classroom' | 'Share to Microsoft Teams' | 'Share to Public Gallery (BETA)';
 let ShareOptions: ShareOptions[] = ['Copy Shareable URL', 'Copy Embed Code', 'Share to Google Classroom', 'Share to Microsoft Teams', 'Share to Public Gallery (BETA)'];
 
-type Languages = 'English' | 'French' | 'German' | 'Welsh';
-const Languages: Languages[] = ['English', 'French', 'German', 'Welsh'];
+type Languages = 'English' | 'French' | 'German' | 'Welsh' | 'Turkish';
+const Languages: Languages[] = ['English', 'French', 'German', 'Welsh', 'Turkish'];
 
 const ViewModeBlockly = 'blocks';
 const ViewModePython = 'python';
@@ -969,6 +969,29 @@ export default class Page extends Component<Props, State> {
 
             document.getElementById("menubar")!.innerHTML = generic[0];
             document.getElementById("menubar")!.innerHTML = navLabels[0];
+            await this.closeModal();
+        }
+        if (func === 'Turkish') {
+            GlobalVars.openFiles = "Aç";
+
+            navLabels = ["Yeni", "Aç", "Kaydet", "Örnekler", "Ekstralar", "Çalıştır", "Giriş", "Başlıksız", "Hex İndir", "İndir", "Temalar", "Paylaş"];
+            
+            generic = ["Aç", 
+            "Git", 
+            "Seç", 
+            "Kapat", 
+            "Sil", 
+            "Evet", 
+            "Hayır", 
+            "Dikkat!", 
+            "Çalıştıracak Kod yok!", 
+            "Mod değiştirmek kodu silecek, devam edilsin mi?", 
+            "Yüklüyor...", 
+            "Mod seç",
+            "Dosyalar"];
+
+            document.getElementById("menubar")!.innerHTML = navLabels[0];
+            document.getElementById("menubar")!.innerHTML = generic[0];
             await this.closeModal();
         }
     }
