@@ -1,7 +1,7 @@
-<category name="Processing" colour="#c51a4a" iconclass="blocklyTreeIconCustom processing">
+<category name="İşleme" colour="#c51a4a" iconclass="blocklyTreeIconCustom processing">
 
 
-  <label text="Processing" web-class="myLabelStyle"></label>
+  <label text="İşleme" web-class="myLabelStyle"></label>
 
   <block type="p_arc">
     <value name="text">

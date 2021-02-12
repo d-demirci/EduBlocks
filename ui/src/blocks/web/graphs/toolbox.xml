@@ -1,7 +1,7 @@
-<category name="Graphs" colour="#008FD1" iconclass="blocklyTreeIconCustom graphs">
+<category name="Grafik" colour="#008FD1" iconclass="blocklyTreeIconCustom graphs">
 
 
-  <label text="Graphs" web-class="myLabelStyle"></label>
+  <label text="Grafik" web-class="myLabelStyle"></label>
 
   <block type="chart_type">
     <value name="text">
@@ -14,7 +14,7 @@
   <block type="chart_title">
     <value name="text">
       <shadow type="stringinline">
-        <field name="text">My awesome chart</field>
+        <field name="text">Harika Grafiğim</field>
       </shadow>
     </value>
   </block>
@@ -22,7 +22,7 @@
   <block type="chart_add">
     <value name="text">
       <shadow type="stringinline">
-        <field name="text">Label</field>
+        <field name="text">Etiket</field>
       </shadow>
     </value>
 

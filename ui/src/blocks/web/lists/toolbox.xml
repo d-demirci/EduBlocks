@@ -1,6 +1,6 @@
-<category name="Lists" colour="#15BAD4" iconclass="blocklyTreeIconCustom lists">
+<category name="Listeler" colour="#15BAD4" iconclass="blocklyTreeIconCustom lists">
 
-  <label text="Lists" web-class="myLabelStyle"></label>
+  <label text="Listeler" web-class="myLabelStyle"></label>
   <block type="create_list">
     <value name="text">
       <shadow type="textinline">
