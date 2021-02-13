@@ -1233,6 +1233,15 @@ export default class Page extends Component<Props, State> {
                         {this.state.viewMode}
 
                     </button>
+                    <button
+                        id='splitViewButton'
+                        class='splitViewButton'
+                        onClick={() => this.splitView(true)}
+                    >
+
+                        {this.state.viewMode}
+
+                    </button>
 
                     <button
                         id='ExitSplit'
